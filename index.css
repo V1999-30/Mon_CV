@@ -364,3 +364,278 @@ a
 	border-radius: 40px;
 	padding: 5px;
 }
+
+/*------------------------responsive mobile 320px-------------------*/
+@media all and (min-width: 320px) and (max-width: 767px)
+{
+	body
+	{
+		display: initial;
+	}
+
+	#first
+	{
+		padding-left: 0px;
+	}
+
+	/*---------partie principale---------*/
+	h1
+	{
+		font-size: 35px;
+	}
+
+	h2
+	{
+		font-size: 20px;
+	}
+
+	h3
+	{
+		font-size: 15px;
+	}
+
+	h4 
+	{
+    	font-size: 14px;
+    }
+
+	#title
+	{
+		text-align: center;
+		margin: 0px 0px 100px 0px;
+	}
+
+	#title span
+	{
+		top: 98%;
+		left: 14%;
+		width: 17%;
+	}
+
+	/*-------formation---------*/
+	#head-study
+	{
+		justify-content: center;
+	}
+
+	.cap
+	{
+		font-size: 17px;
+    	padding-right: 2px;
+	}
+
+
+	#study span
+	{
+		top: 2.75%;
+    	left: 32%;
+    	width: 36%;
+    }
+
+    #étude li 
+	{
+	    display: inherit;
+	}
+
+	.icone-study
+	{
+		display: flex;
+		justify-content: center;
+		padding: 0px 0px 20px 0px;
+	}
+
+	.icone-study .circle
+	{
+		padding-right: 5px;
+	}
+
+	.icone-study p
+	{
+		margin: 0;
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.text-study 
+	{
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.text-study p
+	{
+		text-align: justify; 
+	    margin: 0;
+	    padding: 10px 15px 32px 15px;
+	}
+
+	/*--------------------Expériences Professionnelles-----------------*/
+	#overhead
+	{
+		justify-content: center;
+	}
+
+	.case
+	{
+		text-align: center;
+		font-size: 17px;
+		padding-right: 3px
+	}
+
+	#work span
+	{
+		position: absolute;
+		top: 2%;
+    	left: 7.25%;
+    	width: 85.5%;
+		height: 2px;
+		background-color: #FCBF00;
+		border: none;
+	}
+
+	#job
+	{
+		padding-top: 32px;
+	}
+
+	#job ul
+	{
+		padding: 0;
+		margin: 0;
+	}
+
+	#job li
+	{
+		display: initial;
+	}
+
+	.icone-job
+	{
+		justify-content: center;
+		padding: 0px 0px 20px 0px;
+	}
+
+	.icone-job p
+	{
+		margin: 0;
+		padding-left: 5px;
+	}
+
+	.icone-job i 
+	{
+		color: #FCBF00;
+	}
+
+	.text-job
+	{
+		
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.text-job h5
+	{
+		margin: 0;
+		font-size: 15px;
+		padding-top: 7px;
+	}
+
+	.text-job p
+	{
+		text-align: justify; 
+	    margin: 0;
+	    padding: 10px 15px 32px 15px;
+	}
+
+	/*---------------------------Recommandation---------------------*/
+
+	#recommandation 
+	{
+		position: relative;
+	}
+
+	#head-recommandation
+	{
+		display: flex;
+		justify-content: center;
+	}
+
+	.pen
+	{
+		font-size: 17px;
+		color: #FCBF00;
+		padding-right: 3px;
+	}
+
+	#recommandation span
+	{
+		top: 8%;
+    	left: 22%;
+    	width: 60%;
+	}
+
+	#move
+	{
+		padding-top: 15px;
+		display: inherit;
+		text-align: center;
+	}
+
+	#move h5
+	{
+		font-size: 15px;
+		margin: 0;
+		padding-bottom: 5px;
+	}
+
+	#move p
+	{
+		margin: 0;
+		padding-bottom: 3px;
+	}
+
+	#one
+	{
+		padding-bottom: 25px;
+	}
+
+	#two
+	{
+		padding-bottom: 25px;
+	}
+
+	/*-----------------------personnelle-------------------*/
+	#personal 
+	{
+    	width: 100%;
+    	padding-top: 64%;
+	}
+
+	img
+	{
+		top: 1%;
+	}
+
+	#about_me p 
+	{
+	    width: 90%;
+    	padding: 10px 6px 10px 17px;
+	    margin: 0;
+	}
+
+	#contact p 
+	{
+    	padding-left: 15px;
+	}
+
+	#hobbies
+	{
+		text-align: center;
+	}
+
+	#hobbies i
+	{
+		font-size: 25px;
+		margin: 10px;
+	}
+}
