@@ -768,3 +768,127 @@ a
     	padding: 10px 6px 10px 22px
 	}
 }
+
+/*------------------------Responsive Tablette-----------------------*/
+@media all and (min-width: 768px) and (max-width: 1023px)
+{
+	body
+	{
+		display: initial;
+	}
+
+	#first
+	{
+		padding-left: 0px;
+	}
+
+	/*---partie principale----*/
+	#title
+	{
+		margin: 50px 0px 100px 0px;
+		text-align: center;
+	}
+
+	#title span
+	{
+	    left: 32%;
+	    width: 8.5%;
+	}
+
+	/*-----Formation-----*/
+	#head-study
+	{
+		padding-left: 5px;
+	}
+
+	.cap
+	{
+		padding-right: 20px
+	}
+
+	#study span
+	{
+		top: 8%;
+    	left: 1%;
+    	width: 98%;
+	}
+
+	/*-----Expérience Professionelle----*/
+	#overhead
+	{
+		padding-left: 5px;
+	}
+
+	.case
+	{
+		padding-right: 20px;
+	}
+
+	#work span
+	{
+	    top: 5.5%;
+    	left: 0.75%;
+    	width: 98.5%;
+	}
+
+	/*-----recommandation-----*/
+	#head-recommandation
+	{
+		padding-left: 5px;
+	}
+
+	.pen
+	{
+		padding-right: 20px;
+	}
+
+	#recommandation span
+	{
+		top: 21%;
+    	left: 0.5%;
+    	width: 98.5%;
+	}
+
+	#move
+	{
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	/*----------------------------Partie Personnelle-------------------*/
+	#personal 
+	{
+    	width: 100%;
+    	padding-top: 35%;
+	}
+
+	img
+	{
+		top: 2%;
+    	left: 36%;
+    	width: 30%;
+	}
+
+	#contact p 
+	{
+    	padding-left: 17px;
+	}
+
+	#about_me p 
+	{
+	    width: 96%;
+    	padding: 9px 6px 10px 18px;
+	    margin: 0;
+	}
+
+	#hobbies
+	{
+		text-align: center;
+	}
+
+	#hobbies i
+	{
+		font-size: 35px;
+    	margin: 20px;
+	}
+}
