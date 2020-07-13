@@ -706,3 +706,65 @@ a
 	    margin: 0;
 	}
 }
+
+/*------------------------Responsive mobile 425px-----------------------*/
+@media all and (min-width: 425px) and (max-width: 767px)
+{
+	/*---partie principale----*/
+	#title span
+	{
+		top: 98%;
+    	left: 23%;
+    	width: 13%;	
+	}
+	/*-------formation---------*/
+	#study span 
+	{
+    	top: 3.5%;
+    	left: 36.5%;
+    	width: 27%;
+    }
+
+    /*--------Expériences Professionnelles--------*/
+	#overhead
+	{
+		justify-content: center;
+	}
+
+	#work span 
+	{
+	    top: 2.5%;
+    	left: 17.75%;
+    	width: 64.5%;
+	}
+
+	/*---------------Recommandation---------------*/
+	#recommandation span
+	{
+		top: 8%;
+    	left: 29%;
+    	width: 42%;
+	}
+
+	/*-----------------------personnelle-------------------*/
+	#personal 
+	{
+    	width: 100%;
+    	padding-top: 60%;
+    }
+    img
+	{
+		top: 2.75%;
+    	left: 30%;
+    	width: 45%;
+	}
+
+	#contact p 
+	{
+    	padding-left: 24px;
+	}
+	#about_me p 
+	{
+    	padding: 10px 6px 10px 22px
+	}
+}
