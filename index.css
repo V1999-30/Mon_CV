@@ -127,6 +127,7 @@ h4
 .icone-study i 
 {
 	color: #FCBF00;
+	margin-top: 5px;
 }
 
 .text-study 
@@ -214,6 +215,7 @@ h4
 .icone-job i 
 {
 	color: #FCBF00;
+	margin-top: 5px;
 }
 
 .text-job
@@ -407,7 +409,7 @@ a
 
 	#title span
 	{
-		top: 98%;
+		top: 97%;
 		left: 14%;
 		width: 17%;
 	}
@@ -418,18 +420,18 @@ a
 		justify-content: center;
 	}
 
-	.cap
+		.cap
 	{
-		font-size: 17px;
-    	padding-right: 2px;
+		font-size: 15px;
+    	padding-right: 10px;
 	}
 
 
 	#study span
 	{
 		top: 2.75%;
-    	left: 32%;
-    	width: 36%;
+    	left: 31%;
+    	width: 38%;
     }
 
     #étude li 
@@ -478,16 +480,16 @@ a
 	.case
 	{
 		text-align: center;
-		font-size: 17px;
-		padding-right: 3px
+		font-size: 13px;
+		padding-right: 10px
 	}
 
 	#work span
 	{
 		position: absolute;
-		top: 2%;
-    	left: 7.25%;
-    	width: 85.5%;
+		top: 1.75%;
+    	left: 5%;
+    	width: 91%;
 		height: 2px;
 		background-color: #FCBF00;
 		border: none;
@@ -562,16 +564,16 @@ a
 
 	.pen
 	{
-		font-size: 17px;
+		font-size: 13px;
 		color: #FCBF00;
-		padding-right: 3px;
+		padding-right: 10px;
 	}
 
 	#recommandation span
 	{
-		top: 8%;
-    	left: 22%;
-    	width: 60%;
+		top: 6.5%;
+    	left: 21%;
+    	width: 58%;
 	}
 
 	#move
@@ -645,7 +647,7 @@ a
 	/*---------partie principale---------*/
 	#title span
 	{
-		top: 98%;
+		top: 97%;
 		left: 19%;
     	width: 15%;
 	}
@@ -654,8 +656,8 @@ a
 	#study span
 	{
 		top: 3%;
-    	left: 34.5%;
-    	width: 31%;
+    	left: 34.25%;
+    	width: 32%;
 	}
 
 
@@ -668,14 +670,14 @@ a
 	#work span 
 	{
 	    top: 2.25%;
-    	left: 13.25%;
-    	width: 74%;
+    	left: 11.25%;
+		width: 77%;
 	}
 
 	/*---------------Recommandation---------------*/
 	#recommandation span
 	{
-		top: 8%;
+		top: 6.5%;
    		left: 25.5%;
     	width: 49%;
 	}
@@ -707,6 +709,46 @@ a
 	}
 }
 
+
+@media 	all and (min-width: 414px) and (max-width: 424px)
+{
+	#title span
+	{
+		top: 96%;
+		left: 22%;
+		width: 13%;
+	}
+
+	#study span 
+	{
+    	left: 35.5%;
+    	width: 29%;
+	}
+
+	.icone-study i 
+	{
+		font-size: 13px;
+    	margin-top: 5px;
+    }
+
+    #work span
+    {
+    	left: 15.25%;
+    	width: 70%;
+    }
+
+    .icone-job
+    {
+    	font-size: 13px;
+    	margin-top: 5px;
+    }
+
+    #recommandation span 
+    {
+    	left: 27.5%;
+    	width: 44.75%;
+    }
+}
 /*------------------------Responsive mobile 425px-----------------------*/
 @media all and (min-width: 425px) and (max-width: 767px)
 {
@@ -721,8 +763,8 @@ a
 	#study span 
 	{
     	top: 3.5%;
-    	left: 36.5%;
-    	width: 27%;
+    	left: 35.75%;
+    	width: 28.75%;
     }
 
     /*--------Expériences Professionnelles--------*/
@@ -733,17 +775,17 @@ a
 
 	#work span 
 	{
-	    top: 2.5%;
-    	left: 17.75%;
-    	width: 64.5%;
+	    top: 2%;
+    	left: 16%;
+    	width: 67.75%;
 	}
 
 	/*---------------Recommandation---------------*/
 	#recommandation span
 	{
-		top: 8%;
-    	left: 29%;
-    	width: 42%;
+		top: 7%;
+    	left: 28.25%;
+    	width: 43.5%;
 	}
 
 	/*-----------------------personnelle-------------------*/
@@ -768,6 +810,155 @@ a
     	padding: 10px 6px 10px 22px
 	}
 }
+
+@media all and (min-width: 568px) and (max-width: 655px)
+{
+	#title span 
+	{
+    	top: 96%;
+    	left: 29.5%;
+    	width: 10%;
+    }
+
+    .cap
+	{
+		font-size: 15px;
+    	padding-right: 10px;
+	}
+
+	#study span 
+	{
+    	top: 3.5%;
+    	left: 39.5%;
+    	width: 21%;
+	}
+
+
+	.icone-study i 
+	{
+		font-size: 15px;
+		margin-top: 3px;
+	}
+
+	.case
+	{
+		font-size: 13px;
+    	padding-right: 10px;
+	}
+
+	#work span 
+	{
+    	top: 2.5%;
+    	left: 24.5%;
+		width: 51.25%;
+	}
+
+	.icone-job i 
+	{
+		font-size: 15px;
+		margin-top: 3px;		
+	}
+
+	.pen 
+	{
+		font-size: 13px;
+    	padding-right: 10px;		
+	}
+
+	#recommandation span 
+	{
+    	top: 7%;
+    	left: 33.5%;
+    	width: 32.75%;
+	}
+}
+
+
+@media all and (min-width: 656px) and (max-width: 767px)
+{
+	#title span 
+	{
+    	top: 98%;
+    	left: 32.5%;
+    	width: 8%;
+    }
+
+    .cap
+	{
+		font-size: 15px;
+    	padding-right: 10px;
+	}
+
+	#study span 
+	{
+    	top: 3.5%;
+    	left: 40.75%;
+    	width: 18.5%;
+	}
+
+
+	.icone-study i 
+	{
+		font-size: 13px;
+		margin-top: 5px;
+	}
+
+	.case
+	{
+		font-size: 15px;
+    	padding-right: 10px;
+	}
+
+	#work span 
+	{
+    	top: 2.5%;
+    	left: 27.75%;
+    	width: 44.5%;
+	}
+
+	.icone-job i 
+	{
+		font-size: 13px;
+		margin-top: 5px;		
+	}
+
+	.pen 
+	{
+		font-size: 13px;
+    	padding-right: 10px;		
+	}
+
+	#recommandation span 
+	{
+    	top: 7%;
+    	left: 35.75%;
+   		width: 28.25%;
+	}
+}
+
+@media all and (min-width: 667px) and (max-width: 736px)
+{
+	#title span 
+	{
+    	top: 96%;
+    	left: 32.5%;
+    	width: 8%;
+    }
+
+	#work span 
+	{
+		left: 28%;
+		width: 43.75%;
+	}
+
+	#recommandation span 
+	{
+    	top: 7%;
+    	left: 36%;
+		width: 28%;
+	}
+}
+
 
 /*------------------------Responsive Tablette-----------------------*/
 @media all and (min-width: 768px) and (max-width: 1023px)
